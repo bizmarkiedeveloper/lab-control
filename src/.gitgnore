@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.venv
+env/
+venv/
+.env
+
+# Segurança e Credenciais
+*.pem
+*.key
+*.pfx
+secrets.json
+
+# Terraform (Infraestrutura)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# IDEs
+.vscode/
+.idea/
